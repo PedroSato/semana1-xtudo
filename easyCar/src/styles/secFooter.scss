@@ -1,0 +1,62 @@
+@import '../global.scss';
+
+
+.main-footer{
+    background-color: $default-black;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 24px 0px;
+    padding-bottom: 8em;
+    z-index: 3 !important;
+}
+.main-footer .nsei{
+    width:70%;
+    
+}
+.main-footer .nsei .footer-div{
+    display: flex;
+    align-content: center;
+    justify-content: space-around
+}
+.main-footer .nsei .footer-content{
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 15px;
+}
+
+.main-footer .nsei .social-media{
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 15px;
+}
+
+.main-footer .nsei .social-media .social-logo{
+    width:40px
+
+}
+
+.main-footer .nsei .footer-logo{
+    padding-bottom: 10px;
+    width:90px
+}
+
+.main-footer .nsei .footer-content .link {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    -webkit-font-smoothing: antialiased !important;
+    align-self: center;
+}
+
+@media (max-width:600px){
+    .main-footer .nsei .footer-content{
+        display:none;
+    }
+}
