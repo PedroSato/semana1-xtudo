@@ -1,0 +1,30 @@
+$default-green: #3CD4B0;
+$default-yellow: #EFD135;
+$default-black: #222222;
+$default-white: #F7FAF7;
+
+$layout-padding: 5em;
+
+
+
+
+
+@import url('https://fonts.google.com/specimen/Roboto?selection.family=Roboto');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' !important;
+}
+
+body{
+    background: #fafafa;
+    font: 14px, Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased !important;
+}
+.page-content{
+    padding-top: $layout-padding;
+    padding-bottom: $layout-padding;
+}
