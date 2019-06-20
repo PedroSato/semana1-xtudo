@@ -3,13 +3,6 @@ import '../styles/Feed.scss'
 import { Column, Title } from 'rbx'
 import { Link } from 'react-router-dom'
 
-import post1 from '../assets/postImage1.png'
-import post2 from '../assets/post2.png'
-import post3 from '../assets/post3.png'
-import post4 from '../assets/post4.png'
-import post5 from '../assets/post5.png'
-import post6 from '../assets/post6.png'
-
 class PostCard extends Component {
 
 
@@ -20,35 +13,35 @@ class PostCard extends Component {
                 {
                     title: 'Estradas',
                     subtitle: 'Dicas para evitar imprevistos durante a viagem',
-                    imageUrl: post1,
+                    imageUrl: 'https://image.freepik.com/fotos-gratis/raios-de-luz-do-sol-da-manha-perfurando-as-arvores_97378-54.jpg',
                     urlArticle: '/artigos/dicas-para-evitar-imprevistos-durante-a-viagem'
 
                 },
                 {
                     title: 'Ponteiros de mouse',
                     subtitle: 'Cursor aparece de forma deselegante',
-                    imageUrl: post2,
+                    imageUrl: '',
                     urlArticle: '/artigos/2'
                 },
                 {
                     title: 'Geral',
                     subtitle: 'card 3 texto',
-                    imageUrl: post3,
+                    imageUrl: ''
                 },
                 {
                     title: 'Categoria',
                     subtitle: 'Titulo do Card 2',
-                    imageUrl: post4,
+                    imageUrl: ''
                 },
                 {
                     title: 'Categoria',
                     subtitle: 'Titulo do Card 2',
-                    imageUrl: post5,
+                    imageUrl: ''
                 },
                 {
                     title: 'Categoria',
                     subtitle: 'Titulo do Card 2',
-                    imageUrl: post6,
+                    imageUrl: ''
                 },
             ]
         };
